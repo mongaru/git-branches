@@ -34,7 +34,17 @@ Create the following files:
 
 \# **Step 6**:
 
-Change local branch to master and check if the folder structure has changed
+Commit changes to "branch-1".
+
+Change local branch to master and check if the folder structure has changed.
+
+Comment: At this point when changing the branch and go back to the text editor you should get the following message.
+
+"/Applications/XAMPP/xamppfiles/htdocs/git-branches/README.md - Has changed on disk. - Do you want to reload it?"
+
+As you can see when changing to a different branch, git restores the files AND FOLDERS AS WELL since you will not see the "style2.css" file. This means that a branch (which is basically a pointer to a commit in the history) has the changes made to the repository in a certain point.
+
+Important Notice: the reason why git insist in commit any modified files when switching branches is because you will loose any modification that was not commited in the given branch.
 
 \# **Step 7**:
 
