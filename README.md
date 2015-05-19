@@ -3,44 +3,44 @@ A small repository to test git branches with multiple actions to have an easy hi
 
 # Procedure
 
-Step 1:
+\# **Step 1**:
 
 create file "index.html" with simple content.
 
-Step 2:
+\# **Step 2**:
 
 create the folloging folder structure:
 
--assets
---css
----style1.css - with some basic css rules
+-assets<br/>
+--css<br/>
+---style1.css - with some basic css rules<br/>
 
-Step 3:
+\# **Step 3**:
 
 Commit to repository and origin.
 
-Step 4:
+\# **Step 4**:
 
-create brach called "branch-1"
+Create brach called "branch-1"
 
-Step 5:
+\# **Step 5**:
 
-create the following files:
+Create the following files:
 
--assets
---css
----style2.css
----style1.css - change the existing file
+-assets<br/>
+--css<br/>
+---style2.css<br/>
+---style1.css - change the existing file<br/>
 
-Step 6:
+\# **Step 6**:
 
 Change local branch to master and check if the folder structure has changed
 
-Step 7:
+\# **Step 7**:
 
 Go back to "branch-1" and push branch to origin.
 
-Step 8:
+\# **Step 8**:
 
 Merge "branch-1" with master local and then push to master origin.
 
