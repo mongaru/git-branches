@@ -62,9 +62,9 @@ Comment: You will notice now that all changes from "branch-1" are in the master,
 
 Create a new branch "branch-2", with the following files:
 
--assets
---js
----script1.js
+-assets<br/>
+--js<br/>
+---script1.js<br/>
 
 \# **Step 10**:
 
