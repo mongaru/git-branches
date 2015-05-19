@@ -21,7 +21,7 @@ Commit to repository and origin.
 
 \# **Step 4**:
 
-Create brach called "branch-1"
+Create brach called "branch-1".
 
 \# **Step 5**:
 
@@ -51,6 +51,8 @@ Important Notice: the reason why git insist in commit any modified files when sw
 Go back to "branch-1" and push branch to origin.
 
 \# **Step 8**:
+
+Checkout to local master branch.
 
 Merge "branch-1" with master local and then push to master origin.
 
