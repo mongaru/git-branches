@@ -56,25 +56,43 @@ Checkout to local master branch.
 
 Merge "branch-1" with master local and then push to master origin.
 
+Comment: You will notice now that all changes from "branch-1" are in the master, so they are both in sync.
+
+\# **Step 9**:
+
+Create a new branch "branch-2", with the following files:
+
+-assets
+--js
+---script1.js
+
+\# **Step 10**:
+
+Commit new files and push changes to origin.
+
+\# **Step 11**:
+
+Checkout master and see if the new file is present.
+
+Comment: the file is not be present since the new file is only at the "branch-2".
+
+\# **Step 12**:
+
+Add new content to the index.html in the master.
+
+\# **Step 13**:
+
+Checkout to "branch-2" and merge with master to load all changes from master.
+
+Comment: at this point we still won't see the new file since we are syncing master onto "branch-2" not the other way. This needs to be done before pushing any changes to master (just like an svn update).
+
+Checkout to master and merge with "branch-2" so we have the new files.
+
+Comment: now "branch-2" and master are in sync but "brunch-1" is behing. This is acceptable since you should remove any branch once you merge with the master.
 
 
-branch 2
-    css
-        style2.css
+# Conclusion
 
-ver master - si se ven los archivos
-volver a branch
+This was a small example on how to work with branches in git, as you see the sort call "magic" that git does with keeping the files from one branch to another is visible here.
 
-merge 2
-
-branch 3
-    js
-        script1.js
-
-master
-    index.html
-
-ver master - si se ven los archivos
-volver a branch
-
-merge 3
+Hope you enjoy it!
